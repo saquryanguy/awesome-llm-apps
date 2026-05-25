@@ -47,4 +47,7 @@ pip install -r requirements.txt
 streamlit run ai_chess_agent.py
 ```
 
-> **Personal note:** The `cd` path in the original README was outdated — updated it to match the actual directory structure in the repo.
+> **Personal notes:**
+> - The `cd` path in the original README was outdated — updated it to match the actual directory structure in the repo.
+> - I tested this with `gpt-4o-mini` to save on API costs; it plays reasonably well and is much cheaper than `gpt-4o` for casual experimentation.
+> - If the game stalls (agents repeating moves), refreshing the Streamlit app and starting a new game usually resolves it.
