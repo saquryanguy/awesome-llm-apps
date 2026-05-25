@@ -59,3 +59,5 @@ streamlit run ai_3dpygame_r1.py
 
 - If the browser automation fails, try refreshing the Trinket.io page and re-running the visualization step.
 - Trinket.io occasionally has rate limits; waiting a few seconds before retrying usually resolves the issue.
+- If you see a `playwright` error on first run, execute `playwright install chromium` to install the required browser binaries.
+- On some systems you may need to run `pip install playwright` separately if it isn't pulled in automatically by `browser-use`.
