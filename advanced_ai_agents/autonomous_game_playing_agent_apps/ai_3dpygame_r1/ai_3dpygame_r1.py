@@ -44,8 +44,8 @@ with st.sidebar:
 
 # Main UI
 st.title("🎮 AI 3D Visualizer with DeepSeek R1")
-# Updated default example to something more visually interesting
-example_query = "Create a 3D rotating cube with colored faces that can be rotated using arrow keys"
+# Changed default example to a solar system simulation — more fun to watch
+example_query = "Create a 3D solar system simulation with orbiting planets and a glowing sun"
 query = st.text_area(
     "Enter your PyGame query:",
     height=70,
@@ -84,5 +84,4 @@ if generate_code_btn and query:
                 max_tokens=8192  # Fixed: 1 token is far too low to get any useful response
             )
 
-        if not deepseek_response.choices or deepseek_response.choices[0].message is None:
-            ra
+        if not deepseek_resp
